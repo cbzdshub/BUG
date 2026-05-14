@@ -1,0 +1,48 @@
+# ==========================================
+# 自定义的全局忽略规则，适用于练习项目
+# ==========================================
+# --- 一些常见的文件类型和目录，通常不需要上传到 GitHub ---
+*.exe
+*.7z
+*.tar.gz
+*.zip
+*.mp4
+
+
+# ==========================================
+# 全局忽略规则 (Global Ignores)
+# ==========================================
+# --- 操作系统级垃圾文件 (OS Generated) ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --- 开发工具/IDE 配置 (Editor & IDEs) ---
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains (PyCharm, WebStorm 等)
+.idea/
+
+# --- 临时/备份文件 ---
+*.swp
+*.bak
+*~
+.netrwhist
+
+# --- 杂项 (Miscellaneous) ---
+# 可能会在根目录产生的日志
+*.log
+
+# --- 个人笔记/临时测试 (如果你习惯在根目录随手写点东西) ---
+temp/
+test_scratch/
